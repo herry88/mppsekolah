@@ -18,3 +18,5 @@ Route::get('/', function () {
 });
 
 Route::resource('kurikulum', 'KurikulumController');
+
+Route::resource('guru', 'GuruController');
