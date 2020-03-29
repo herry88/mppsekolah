@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Kurikulum;
+use App\Jurusan;
 use Illuminate\Http\Request;
 
-class KurikulumController extends Controller
+class JurusanController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class KurikulumController extends Controller
      */
     public function index()
     {
-        return view('adminmpp.kurikulum.index');
+        //
     }
 
     /**
@@ -41,10 +41,10 @@ class KurikulumController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Kurikulum  $kurikulum
+     * @param  \App\Jurusan  $jurusan
      * @return \Illuminate\Http\Response
      */
-    public function show(Kurikulum $kurikulum)
+    public function show(Jurusan $jurusan)
     {
         //
     }
@@ -52,10 +52,10 @@ class KurikulumController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Kurikulum  $kurikulum
+     * @param  \App\Jurusan  $jurusan
      * @return \Illuminate\Http\Response
      */
-    public function edit(Kurikulum $kurikulum)
+    public function edit(Jurusan $jurusan)
     {
         //
     }
@@ -64,10 +64,10 @@ class KurikulumController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Kurikulum  $kurikulum
+     * @param  \App\Jurusan  $jurusan
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Kurikulum $kurikulum)
+    public function update(Request $request, Jurusan $jurusan)
     {
         //
     }
@@ -75,10 +75,10 @@ class KurikulumController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Kurikulum  $kurikulum
+     * @param  \App\Jurusan  $jurusan
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Kurikulum $kurikulum)
+    public function destroy(Jurusan $jurusan)
     {
         //
     }
